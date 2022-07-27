@@ -1,3 +1,15 @@
-h1 { color:red;
+body {
+    background-color: gray;
+    text-align: center;
 
 }
+h1 { color:red;
+    font: size 50px;
+}
+b {
+	color: blue;
+	font-size: 50 px ;
+}
+
+i { color: yellow;
+ }
