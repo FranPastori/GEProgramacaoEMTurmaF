@@ -1,15 +1,27 @@
 body {
-    background-color: gray;
+    background-color: #FFBE56;
     text-align: center;
-
 }
-h1 { color:red;
+
+header{
+     background-color: #FFBE56;
+}
+
+main {
+
+    background-color: rgb(239,25,123);
+}
+
+footer {
+   background-color: #FFBE56;
+}
+h1 { color:black;
     font: size 50px;
 }
 b {
-	color: blue;
-	font-size: 50 px ;
+	color: #FFBE56;
+	font-size: 50px ;
 }
 
-i { color: yellow;
+i { color:#FFBE56;
  }
