@@ -1,6 +1,6 @@
 body {
     background-color: #FFBE56;
-    text-align: center;
+    
 }
 
 header{
@@ -37,4 +37,30 @@ i { color:#FFBE56;
  }
 footer {
    background-color: #FFBE56;
+}
+
+.momentos{
+    background-color: #F783CB;
+    margin: 10px;
+    padding: 10px;
+    border: black solid 2px;
+}
+
+.imagemlateral {
+    display: inline-block;
+    width: 30%;
+    height: inherit;
+    margin: 20px;
+}
+.lista {
+    display: inline-block;
+    width: 30%;
+    height: inherit;
+    vertical-align: top;
+    font-size: 40px;
+
+}
+
+li::marker {
+    content: "🍗";
 }
