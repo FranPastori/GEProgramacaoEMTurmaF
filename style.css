@@ -10,6 +10,15 @@ header{
     width: 200px;
     height: 200px;
 }
+nav li{
+
+}
+
+nav a{
+
+
+}
+
 #imagemprincipal {
 
     width: 100%;
@@ -62,8 +71,4 @@ footer {
     vertical-align: top;
     font-size: 40px;
 
-}
-
-li::marker {
-    content: "🍗";
 }
