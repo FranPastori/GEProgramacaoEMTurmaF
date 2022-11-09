@@ -15,7 +15,8 @@ nav li{
 }
 
 nav a{
-
+ text-decoration: none;
+ list-style: none;
 
 }
 
