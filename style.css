@@ -1,11 +1,30 @@
 body {
     background-color: #FFBE56;
+    font-family: 'Marhey', cursive;
     
 }
 
 header{
      background-color: #FFBE56;
 }
+
+h1,h2,h3,h4,h5,h6,p,ul{
+    padding: 10px;
+    margin:  10px;
+
+}
+body h2 {
+
+font-size: 1em;
+font-weight: bold;
+font-family: 'Marhey', cursive;
+}
+
+ h1 {
+font-size: 32px;
+font-weight: bolder;
+}
+
 .logo{
     width: 200px;
     height: 200px;
@@ -43,21 +62,6 @@ main {
     background-color: rgb(239,25,123);
 }
 
-
-h1 { color:black;
-    font: size 50px;
-}
-b {
-	color: #FFBE56;
-	font-size: 50px ;
-}
-
-#paragrafodiferente {
-    font-size: 40px;
-} 
-
-i { color:#FFBE56;
- }
 footer {
    background-color: #FFBE56;
 }
