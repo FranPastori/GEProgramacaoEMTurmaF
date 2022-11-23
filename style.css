@@ -71,8 +71,8 @@ footer {
     margin: 10px;
     padding: 10px;
     border: black 2px;
-    border-style: dotted;
-    border-radius: 0;
+    border-style:solid;
+    border-radius: 100px;
 }
 
 .imagemlateral {
