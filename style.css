@@ -70,7 +70,8 @@ footer {
     background-color: #F783CB;
     margin: 10px;
     padding: 10px;
-    border: black solid 2px;
+    border: black 2px;
+    border-style: dotted;
 }
 
 .imagemlateral {
