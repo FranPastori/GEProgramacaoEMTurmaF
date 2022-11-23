@@ -72,6 +72,7 @@ footer {
     padding: 10px;
     border: black 2px;
     border-style: dotted;
+    border-radius: 0;
 }
 
 .imagemlateral {
