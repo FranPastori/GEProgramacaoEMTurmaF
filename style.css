@@ -35,6 +35,13 @@ font-weight: bolder;
     top: 90px;
     right: 150px;
 }
+
+p::first-letter{ 
+
+    color:rgb(239,25,123);
+    font-size: 1.5em;
+
+}
 nav li{
     list-style: none;
     display: inline;
@@ -44,9 +51,23 @@ nav li{
 nav a{
  text-decoration:none;
  text-transform: uppercase;
- font-size: 36px;
+ font-size: 32px;
  
 
+}
+
+nav a:hover {
+ 
+    text-decoration: underline;
+    font-size: 34px;
+    transition: 0.5s;
+
+
+}
+
+nav a:visited {
+
+    color: rgb(239,25,123);
 }
 
 #imagemprincipal {
@@ -63,7 +84,10 @@ main {
 }
 
 footer {
+    background-size: 10%;
+    height: 200px;
    background-color: #FFBE56;
+   background-image: url(https://static.vecteezy.com/system/resources/previews/001/191/756/non_2x/square-pattern-png.png);
 }
 
 .momentos{
@@ -73,6 +97,7 @@ footer {
     border: black 2px;
     border-style:solid;
     border-radius: 100px;
+  
 }
 
 .imagemlateral {
@@ -80,6 +105,29 @@ footer {
     width: 30%;
     height: inherit;
     margin: 20px;
+    opacity: 70%;
+}
+
+.imagemlateral:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+
+}
+.imagemlateral:active {
+transform: scale(0.8);
+
+}
+
+button {
+
+    background-color: black;
+    color: blanchedalmond;
+
+}
+
+button:active{
+    transform: scale(0.8);
+
 }
 .lista {
     display: inline-block;
